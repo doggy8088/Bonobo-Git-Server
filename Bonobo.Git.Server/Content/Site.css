@@ -95,6 +95,8 @@ nav.branches ul li:hover ul li { float: none; }
 .Commits nav.branches ul li:hover ul li { display: block; float: none;}
 
 .Tree .pure-table tbody { font-size: 0.8em; }
+.Tree #files .path { width: 230px;}
+.Tree #files .date { width: 150px;}
 .breadcrumbs { padding: 7px; margin: 0; }
 .breadcrumbs em { font-weight: bold; font-style: normal; }
 
@@ -109,6 +111,7 @@ nav.branches ul li:hover ul li { float: none; }
 .commit .metadata p { margin: 0; font-size: 0.8em; font-family: monospace, sans-serif;}
 .commit .metadata h4 { margin-bottom: 0.5em;}
 .commit .metadata { text-align: right;}
+.commit h2 {width: 780px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 .commit h2 a:hover { text-decoration: none; color: #777;}
 .commit { border-bottom: 1px solid #f6f6f6; }
 
